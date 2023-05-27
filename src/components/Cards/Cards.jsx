@@ -1,25 +1,23 @@
-import React from "react";
-import "./Cards.css";
-import { cardsData } from "../../Data/Data";
+// import React from 'react';
+// import '../styles/cards.css'
+// import './Cards.css'
 
-import Card from "../Card/Card";
+// const Cards = ({ item, handleClick }) => {
+//   const { title, author, count, img } = item;
+//   return (
+//     <div className="Cards">
+//       <div className='parentContainer'>
+//         <div className="CompactCard">
+//           <p>{title}</p>
+//           <p>{a}</p>
+//           <p>Count - {count}</p>
 
-const Cards = () => {
-  return (
-    <div className="Cards">
-      {cardsData.map((card, id) => {
-        return (
-          <div className="parentContainer" key={id}>
-            <Card
-              title={card.title}
-              color={card.color}
-              png={card.png}
-            />
-          </div>
-        );
-      })}
-    </div>
-  );
-};
+//           <button onClick={() => handleClick(item)} >Add to Filter</button>
+//         </div>
+//       </div>
 
-export default Cards;
+//     </div>
+//   )
+// }
+
+// export default Cards

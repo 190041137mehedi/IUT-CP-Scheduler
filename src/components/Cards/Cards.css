@@ -21,3 +21,25 @@
     width: 90%;
   }
 }
+
+.CompactCard {
+  display: flex;
+  flex: 1;
+  height: 1rem !important;
+  border-radius: 0.7rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+}
+.CompactCard:hover {
+  box-shadow: none !important;
+}
+
+.codeBox {
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}

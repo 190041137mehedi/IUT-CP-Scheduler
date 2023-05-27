@@ -4,7 +4,8 @@
   height: 1rem !important;
   border-radius: 0.7rem;
   color: white;
-  padding: 1rem;
+  padding: 1.5rem;
+  padding-left: 25rem;
   position: relative;
   cursor: pointer;
 }
